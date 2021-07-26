@@ -1,0 +1,132 @@
+:root{
+    background-color: #555B6E;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: fantasy;
+}
+
+h1{
+    font-size: 10rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 20rem;
+    height: 100vw;
+    padding: 2rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 3rem;
+    padding: 5rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: rgb(2,0,36);
+    background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(51,80,247,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 244, 0.5);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+h1 {
+    background-color: none;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.highscores-btn{
+    font-size: 3rem;
+    padding: 5rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+   /*background: linear-gradient(360deg, rgb(51, 80, 247) 0%, rgb(0,10,255) 100%,);*/
+    /*background: linear-gradient(#648880, #293f50);
+    /*background-color: "blue";*/
+    background: rgb(2,0,36);
+    background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(51,80,247,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+}
+
+.highscore-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 244, 0.5);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+}
+
